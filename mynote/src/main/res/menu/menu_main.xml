@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+        <group android:checkableBehavior="single">
+            <item android:id="@+id/delete_note"
+                android:title="@string/menu_delete_note"
+                android:alphabeticShortcut="d"
+                />
+            <item android:id="@+id/modify_note"
+                android:title="@string/menu_modify_note"
+                android:alphabeticShortcut="m"
+                />
+        </group>
+</menu>

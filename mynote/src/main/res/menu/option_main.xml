@@ -1,0 +1,11 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.zq.mynote.MainActivity">
+    <item android:id="@+id/edit_all_note"
+        android:title="编辑"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+</menu>

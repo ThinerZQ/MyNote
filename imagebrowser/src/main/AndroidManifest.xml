@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zq.imagebrowser" >
+        />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CalendarActivity"
+            android:label="@string/title_activity_calendar" >
+        </activity>
+        <activity
+            android:name=".DateTimeActivity"
+            android:label="@string/title_activity_date_time" >
+        </activity>
+        <activity
+            android:name=".ActionBarTestActivity"
+            android:label="@string/title_activity_action_bar_test" >
+        </activity>
+        <activity
+            android:name=".CheckBoxListViewActivity"
+            android:label="@string/title_activity_check_box_list_view" >
+
+        </activity>
+        <activity
+            android:name=".MituiChoice"
+            android:label="@string/title_activity_mitui_choice" >
+
+        </activity>
+    </application>
+
+</manifest>

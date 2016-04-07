@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyNote</string>
+    <string name="hello_world">你好世界！</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_new_file">新建Note</string>
+    <string name="title_activity_modify">修改Note</string>
+    <string name="menu_delete_note">删除</string>
+    <string name="menu_modify_note">修改</string>
+    <string name="edit_all_note">编辑</string>
+</resources>

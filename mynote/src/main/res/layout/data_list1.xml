@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+        <TextView
+           android:id="@+id/noteFlag1"
+            android:layout_width="@dimen/table_row_height"
+            android:layout_height="@dimen/table_row_height"
+            android:textSize="35dp"
+            android:background="@drawable/bg_border"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/noteText1"
+            android:layout_width="250dp"
+            android:layout_height="@dimen/table_row_height"
+            android:autoLink="all"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            style="@style/myStyle"/>
+        <CheckBox android:id="@+id/checkbox1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:visibility="visible"
+            android:clickable="false"/>
+
+
+
+</LinearLayout>

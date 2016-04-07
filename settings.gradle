@@ -1,0 +1,1 @@
+include ':app', ':mynote', ':testapplication', ':NetworkView', ':imagebrowser'

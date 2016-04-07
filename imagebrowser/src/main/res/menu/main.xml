@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.zq.imagebrowser.ActionBarTestActivity">
+    <item
+        android:id="@+id/search"
+        android:title="设置"
+        android:orderInCategory="100"
+        app:showAsAction = "always"
+        android:actionViewClass="android.widget.SearchView"/>
+    <item
+        android:id="@+id/progress"
+        android:title="开始"
+        android:orderInCategory="100"
+        app:showAsAction = "always"
+        android:actionLayout="@layout/clock"/>
+</menu>

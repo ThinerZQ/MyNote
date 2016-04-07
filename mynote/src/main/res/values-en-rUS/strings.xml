@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyNote</string>
+    <string name="hello_world">hello world！</string>
+    <string name="action_settings">setting</string>
+    <string name="title_activity_new_file">New Note</string>
+    <string name="title_activity_modify">Modify Note</string>
+    <string name="menu_delete_note">Delete</string>
+<string name="menu_modify_note">Modify</string>
+    <string name="edit_all_note">Edit</string>
+</resources>
